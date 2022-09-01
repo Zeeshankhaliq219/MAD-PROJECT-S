@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.col_main {
+  padding: 0px;
+}
+input {
+  height: 120px;
+  font-size: 50px;
+}
+input::placeholder {
+  color: aliceblue;
+}
+input:focus {
+  outline: none;
+}
+.bg_button {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+span {
+  cursor: pointer;
+}
+span::selection {
+  user-select: none;
+}
+button::selection {
+  user-select: none;
+}
